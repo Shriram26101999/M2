@@ -5,14 +5,14 @@
 }
 
 
-#header, p{
+.head, p{
     background-color: black;
     color: white;
     height:35px;
     padding: 8px 0 5px 10px;
 }
 
-#search-box{
+.open{
     padding: 10px 15px;
     margin-left:14px;
 }
@@ -44,7 +44,7 @@ button{
     color: white;
 }
 
-#data-box{
+.info-pro{
     margin-top: 20px;
     margin-left:18px;
     padding-right:50px;
@@ -67,7 +67,7 @@ table tr td{
     display:inline-block;
 }
 
-#button-flex{
+.btn-pro{
     display: flex;
     justify-content: space-evenly;
 }
